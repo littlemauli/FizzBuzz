@@ -4,6 +4,8 @@ let greeting = function(){
 
 greeting();
 
+
+// my total rubbish start
 /*let num =0;
 for (let i=1; i<101; i++){
     num = i
@@ -19,6 +21,8 @@ for (let i=1; i<101; i++){
         }
 }*/
 
+
+// this code works unless you hit rule 4 with%17
 let fizz = 'Fizz'
 let buzz = 'Buzz'
 let bang ='Bang'
@@ -42,17 +46,6 @@ let five = function(number){
     }
 }
 
-//let normal = function(number){
-//    if (number%5!==0 && number%3!==0 && number%7!==0){
-//         console.log(number)
-//     }
-// }
-
-// let threeFive = function(number){
-//     if(number%3 === 0 && number%5=== 0){
-//      console.log(fizz+buzz)
-//     }
-// }
 
 let seven = function(number){
     if(number%7 ===0){
@@ -84,28 +77,9 @@ let seventeen = function(number){
     }
 }
 
-// for (let i=1; i<201; i++){
-//     num = i
-//     let result =''
-//     let worked3 = three(i);
-//     let worked5 = five(i)
-//     let worked7 = seven(i)
-//     let worked11 = eleven(i)
-//     let worked13 = thirteen(i)
-//     if(worked3 !==i){ result= worked3}
-//     if(worked5 !==i){ result = result + worked5}
-//     if(worked7 !==i){ result = result + worked7}
-//     if(worked11 !==i){ result = worked11}
-// 
-    
-//     if(result=== ''){ result = i}
-    
-//    console.log(result)
-// }
+
 
 // for (let i=1; i<285; i++){
-//     num = i
-//     let array =[]
 //     let result =''
 //     let worked3 = three(i);
 //     let worked5 = five(i)
@@ -130,7 +104,7 @@ let seventeen = function(number){
 
 
 
-
+// This code works for all 4 rules
 
 let threeBis = function(array, number){
     if(number%3===0){
@@ -161,6 +135,7 @@ let elevenBis = function(array,number){
     return array
 }
 
+// I needed help to implement this rule
 let thirteenBis = function(array,number){
     if(number%13===0){
      
